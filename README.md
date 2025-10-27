@@ -26,7 +26,7 @@ go mod init example.com/pz6-gorm
 go get gorm.io/gorm gorm.io/driver/postgres github.com/go-chi/chi/v5
 ```
 
-### Создаём структуру файлов
+## Создаём структуру файлов
 
 ![structure](img/structure.JPG)
 
@@ -42,28 +42,22 @@ go get gorm.io/gorm gorm.io/driver/postgres github.com/go-chi/chi/v5
 ### Содержимое router.go
 ![main.go](img/router.go.JPG)
 
-### Содержимое handlers.go
+## Содержимое handlers.go
 ![handlers.go](img/handlers.go(1).JPG)
 ![handlers.go](img/handlers.go(2).JPG)
 ![handlers.go](img/handlers.go(3).JPG)
 ![handlers.go](img/handlers.go(4).JPG)
 
-### Запуск и проверка
+## Запуск и проверка
 ![export](img/export_post.JPG)
-![go.run](img/run_go.JPG)
+![go.run](img/go_run.JPG)
 
-### Проверяем
-# здоровье
+# Проверяем
+## здоровье
 ![health](img/health.JPG)
-# создаём пользователя
+## создаём пользователя
 ![user](img/create_user.JPG)
-# создаём заметку с тегами
+## создаём заметку с тегами
 ![notes](img/create_notes.JPG)
-# получаем заметку с автором и тегами
+## получаем заметку с автором и тегами
 ![notes](img/create_notes_1.JPG)
-
-### Обновить (статус первого задания меняем с false на true)
-![update](img/update.JPG)
-
-### Проверяем изменение
-![run.go.3](img/run.go_3.JPG)
