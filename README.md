@@ -48,7 +48,7 @@ go get gorm.io/gorm gorm.io/driver/postgres github.com/go-chi/chi/v5
 ![handlers.go](img/handlers.go(3).JPG)
 ![handlers.go](img/handlers.go(4).JPG)
 
-## Запуск и проверка
+# Запуск и проверка
 ![export](img/export_post.JPG)
 ![go.run](img/go_run.JPG)
 
