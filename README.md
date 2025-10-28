@@ -1,10 +1,10 @@
-## Практическое задание № 6
+# Практическое задание № 6
 
-## Использование ORM (GORM). Модели, миграции и связи между таблицами.
+# Использование ORM (GORM). Модели, миграции и связи между таблицами.
 
 Студент группы *ЭФМО-02-25 Пягай Даниил Игоревич*
 
-## Описание
+# Описание
 
 **Цели:**
 
@@ -42,7 +42,7 @@ go get gorm.io/gorm gorm.io/driver/postgres github.com/go-chi/chi/v5
 ### Содержимое router.go
 ![main.go](img/router.go.JPG)
 
-## Содержимое handlers.go
+### Содержимое handlers.go
 ![handlers.go](img/handlers.go(1).JPG)
 ![handlers.go](img/handlers.go(2).JPG)
 ![handlers.go](img/handlers.go(3).JPG)
